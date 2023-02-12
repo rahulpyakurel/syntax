@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+<body>
+    <pre>Arrow Function is a concept of modern javascript</pre>
+
+
+    <script>
+    //define the arrow function
+    const demoAdd=(a,b) =>{
+        return(a*b)
+    }
+
+    // const demoAdd=(a,b) => (     || if only single statemt can remove curly braces and return not required
+    //    a*b
+    // )
+
+    //call the function
+    let x = demoAdd(5,10)
+    document.write(`${x}<br>`)
+
+
+    //define the newFunc()
+    const newFunc = text => (
+        'hello ' + text
+    )
+
+    //call the function newFunc()
+    let y = newFunc("rahul")
+    document.write(`${y}`)
+    </script>
+</body>
+</html>

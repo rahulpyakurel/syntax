@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+    
+<body>
+    <pre>
+        onclick,onload,onsubmit,onchange,onkeyup,,onkeydown,onmouseover,onmouseout,onmousemove,etc
+    </pre>
+    <button onclick="demoFunc()">Click Me</button> <!--onclick  is event || demoFunc is function called with onclick-->
+    <h2 id="result"></h2>
+
+    <script>
+        function demoFunc(){
+            // document.write(new Date())
+            document.getElementById('result').innerHTML=new Date()
+        }
+    </script>
+    
+</body>
+</html>
