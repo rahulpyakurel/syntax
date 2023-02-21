@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Methods</title>
+</head>
+<body>
+    <script>
+        const pi = Math.PI
+        document.write(`${pi} <br>`) // 3.141592653589793
+        document.write(`${pi.toFixed(2)} <br>`) //3.14
+
+        //square root
+        document.write(`${Math.sqrt(25)} <br>`) // 5
+
+        //power
+        document.write(`${Math.pow(3,4)} <br>`) //81
+
+        //absolute positive integer 
+        document.write(`${Math.abs(-40)} <br>`) // 40
+
+        //round
+        document.write(`${Math.round(6.5)} <br>`) //7
+        document.write(`${Math.round(6.2)} <br>`) //6
+        document.write(`${Math.round(6.8)} <br>`) //7
+
+        //ceil() -> always rounds up the value doesnot depend on decimal number 
+        document.write(`${Math.ceil(4.2)} <br>`) // 5 touches the ceiling concept
+        document.write(`${Math.ceil(5.1)} <br>`) // 6
+
+        //floor
+        document.write(`${Math.floor(8.9)} <br>`) // 8 touches the floor concept
+        document.write(`${Math.floor(6.9)} <br>`) // 6
+
+        //random number
+        document.write(`${Math.random()} <br>`)
+
+        let myNumber = Math.floor(Math.random()*50) // generates between 0 to 49 if 50 req* we do 50)+1
+        document.write(`${myNumber} <br>`)
+
+        //
+
+    </script>
+</body>
+</html>
